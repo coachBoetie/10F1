@@ -222,7 +222,7 @@ onSnapshot(query(matchesRef, orderBy("createdAt", "desc")), (snapshot) => {
 // ================= COUNTDOWN =================
 
 const seasonStart =
-  new Date("2026-07-01T00:00:00").getTime();
+  new Date("2026-07-04T00:00:00").getTime();
 
 function updateCountdown() {
 
